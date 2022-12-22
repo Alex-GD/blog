@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "Blog Alejandro GD",
+	"short_name": "Blog_Alex",
+	"description": "Blog personal realizado con Astro",
 	"icons": [
 		{
 			"src": "images/icon/192x192.png",

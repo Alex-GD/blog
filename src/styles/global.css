@@ -2,25 +2,27 @@
 @layer base {
 	:root {
 		color-scheme: light;
-		--theme-bg: 0 0% 98%;
-		--theme-link: 172 18.1% 41.2%;
-		--theme-text: 202 10.5% 14.9%;
-		--theme-accent: 351 65.9% 48.2%;
-		--theme-accent-2: 0 0% 6.7%;
+		--theme-bg: 0 0% 98%; /* FONDO */
+		--theme-link: 172 18.1% 41.2%; /* ENLACES */ 
+		--theme-text: 202 10.5% 14.9%; /* TEXTO */
+		--theme-accent: 351 65.9% 48.2%; /* BTO MENU */
+		--theme-accent-2: 0 0% 6.7%; /* TITULO */
 		--theme-quote: 351 65.9% 48.2%;
 		--theme-menu-bg: hsl(0 0% 98% / 0.85);
 	}
 
 	:root.dark {
 		color-scheme: dark;
-		--theme-bg: 210 6.5% 12.2%;
-		--theme-link: 330 49.4% 66.7%;
-		--theme-text: 220 2.9% 79.4%;
-		--theme-accent: 159 62.8% 45.3%;
-		--theme-accent-2: 0 0% 93.3%;
+		--theme-bg: 210 6.5% 12.2%; /* FONDO */
+		--theme-link:  45 87% 50%; /* ENLACES */ 
+		--theme-text: 220 2.9% 79.4%; /* TEXTO */
+		--theme-accent: 45 87% 50%;	/* BTO MENU */
+		--theme-accent-2: 0 0% 93.3%; /* TITULO */
 		--theme-quote: 102 100% 85.7%;
 		--theme-menu-bg: hsl(210 6.5% 12.2% / 0.85);
 	}
+
+	/* NARANJA #EFB810; */
 
 	html {
 		@apply h-full border-t-2 border-textColor scroll-smooth;
