@@ -1,0 +1,30 @@
+---
+layout: "@/layouts/BlogPost"
+title: Como incluir tu propio css en un plugin de wordpress
+publishDate: 27 dec 2022
+description: Código para incluir tu hoja de estilos propia en un pluging de wordpress.
+tags: ["wordpress", "tutorial", "código"]
+---
+import { Code } from "astro/components";
+
+
+## Sintaxis
+
+```js
+add_editor_style( $HojaDeEstilo )
+```
+
+## Parámetros
+
+```js
+$HojaDeEstilo: ruta de la hoja de estilo que deseamos importar al pluging
+```
+
+## Ejemplo
+
+```js
+function add_new_style() {
+    add_editor_style( 'file-name-here.css' );
+}
+add_action( 'admin_init', 'add_new_style' );
+```
